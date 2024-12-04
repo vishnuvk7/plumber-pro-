@@ -1,0 +1,453 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    background-color: white!important;
+    color: black!important;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+.a{
+    font-size: 20px!important;
+    margin-left: 10px;
+    transition-duration: 0.45s;
+   
+}
+.a:hover{
+    color: chocolate!important;
+    border-bottom: 2px solid black;
+    /* transform: translateY(-10px); */
+    transform: scale(1.1);  
+    transform: translateY(-7px);
+    transition-duration: 1s;
+
+}
+.p:hover{
+    transform: scale(1.1);
+    transition-duration: 0.45s;
+}
+section{
+    height: 70vh;
+    width: 100%;
+}
+.headimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(1.3);
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./InShot_20241011_195017846.jpg);
+    background-size: cover;
+    position: relative;
+}
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: absolute;
+flex-wrap: wrap;
+top: 250px;
+left: 100px;
+text-align: center;
+color: bisque;
+}
+.btn{
+    border: none;
+    background-color: red;
+    padding: 10px;
+    color: white!important;
+}
+.btn:hover{
+    background-color: black;
+    color: white!important;
+    transform: scale(1.1);
+    transition-duration: 0.25s;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+main{
+    height: 70vh;
+    background-color: beige;
+}
+main h1{
+    text-align: center;
+    /* padding-top: 250px; */
+}
+.ser1,.ser2,.ser3,.ser4{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid black;
+    margin-top: 30px;
+    box-shadow: 0 0 30px black;
+}
+/* scroll effect */
+section .container-fluid,main .container-fluid,.why-choose-us .container-fluid,.contact2{
+    animation: scrolleffect linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+@keyframes scrolleffect {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.contactus1,.aboutus .container-fluid,.cards{
+    animation: scrolleffect2 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+@keyframes scrolleffect2 {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/* end */
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.content1 i{
+    font-size: 30px;
+    padding: 5px;
+}
+main .btn{
+    margin: 50px 0 0 870px;
+    width: 150px;
+}
+/* hover effect */
+.ser4:hover{
+        transform: scale(1.2);
+        background-color: gainsboro;
+        color: black!important;
+        transition-duration: 0.40s;
+}
+.ser3:hover{
+    transform: scale(1.2);
+    background-color: gainsboro;
+    color: black!important;
+    transition-duration: 0.40s;
+}
+.ser2:hover{
+    transform: scale(1.2);
+    background-color: gainsboro;
+    color: black!important;
+    transition-duration: 0.40s;
+}
+.ser1:hover{
+    transform: scale(1.2);
+    background-color: gainsboro;
+    color: black!important;
+    transition-duration: 0.40s;
+}
+.overall{
+    width: 100%;
+}
+.why-choose-us{
+    height: 100vh;
+    background-color: aqua!important;
+    text-align: center;
+}
+.why-choose-us h1{
+    padding-top: 30px;
+}
+.why-choose-us .btn{
+    margin-top: 60px;
+}
+.card{
+    height: 500px;
+    margin-top: 40px;
+}
+.card-body{
+    padding-top: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+    transition-duration: 0.45s;
+}
+main h1{
+    padding-top: 80px;
+}
+.aboutus{
+    height: 120vh;
+    background-color: lightpink;
+    text-align: center;
+}
+.aboutus h1{
+    padding-top: 100px;
+}
+span{
+    font-size: 20px;
+    color: red!important;
+}
+/* cards */
+.card1{
+text-align: center;
+height: 420px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    /* border: 2px solid black; */
+    box-shadow: 0 0 30px black;
+}
+.aboutus h1{
+    padding: 10px;
+}
+.contactus h2{
+    text-align: center;
+    font-size: 40px;
+}
+.contactus{
+    background-color: darkseagreen;
+    height: 100vh;
+    
+}
+.contact2 h5{
+    padding: 20px;
+}
+.contactus1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+form{
+    width: 500px;
+   
+}
+.submit{
+    border: none;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.servicess{
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px
+}
+.submit:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+    transition-duration: 0.30s;
+    background-color: black;
+    color: aliceblue!important;
+}
+/* responsive */
+@media only screen and (max-width:700px){
+    .overall{
+        width: 140%;
+    }
+    main .btn{
+        margin-left: 50px;
+        width: 200px;
+    }
+    .content{
+        margin-left: -50px;
+    }
+    .why-choose-us{
+        height: 300vh;
+    }
+    main{
+        height: 200vh;
+    }
+    .aboutus{
+        height: 320vh;
+    }
+    .contactus{
+        height: 170vh;
+    }
+    form{
+        width: 350px;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:1000px){
+    .overall{
+        width: 100%;
+    }
+    .aboutus{
+        height: 350vh;
+    }
+    .contactus{
+        height: 200vh;
+    }
+}
+.i1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    color: gold!important;
+    background-color: rgb(17, 114, 199);
+}
+.i1:hover{
+    background-color: black;
+    color: aliceblue!important;
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+    transform: scale(1.1);
+    transform: translateY(-10px);
+    transition-duration: 0.40s;
+}
+.contact2 h1{
+    text-align: center;
+}
+.icons{
+    margin-left: 25px;
+}
+
+@media only screen and (min-width:700px) and (max-width:1400px){
+    .overall{
+        width: 100%;
+    }
+    .why-choose-us{
+        height: 200vh;
+    }
+    .why-choose-us .btn{
+        margin: 50px 0 0 40px;
+    }
+    main .btn{
+        margin: 50px 0 0 430px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:500px){
+    main .btn{
+        margin: 50px 0 0 100px;
+    }
+    .overall{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:800px){
+    main .btn{
+        margin: 50px 0 0 170px;
+    }
+    .overall{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:900px){
+    main .btn{
+        margin: 50px 0 0 170px;
+    }
+    .overall{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1150px) and (max-width:1300px){
+    main .btn{
+        margin: 50px 0 0 540px;
+    }
+    .overall{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1150px){
+    main .btn{
+        margin: 50px 0 0 440px;
+    }
+    .overall{
+        width: 100%;
+    }
+}
+.content h1,h1{
+    animation-name: left;
+    animation-duration: 1s;
+}
+/* animations */
+@keyframes left {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+    
+}
+.content h3,h2{
+    animation-name: right;
+    animation-duration: 1s;
+}
+@keyframes right {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+    
+}
+button{
+    animation-name: up;
+    animation-duration: 0.45s;
+}
+@keyframes up {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+    
+}
+.a{
+    animation-name: down;
+    animation-duration: 0.45s;
+}
+@keyframes down{
+    from {
+        transform: translateY(-30px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+    
+}
+.card{
+    animation: slide 3s;
+}
+@keyframes slide{
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+    
+}
